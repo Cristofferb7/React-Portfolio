@@ -1,194 +1,263 @@
 * {
+  font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  /* margin: 80px;
+  padding: 0px;
+  margin-left: 250px; */
+  
+
 }
 
-body {
-  background-color: whitesmoke;
+main {
+display: flex;
+
+
 }
 
-.bucket-app {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 800px;
-  min-height: 600px;
-  background: black;
-  text-align: center;
-  margin: 32px auto;
-  border-radius: 20px;
-  padding-bottom: 32px;
+header {
+background-color: hsl(0, 1%, 19%);
+padding: 20px 10px 10px 0px;
+color: rgb(8, 8, 7);
+display: flex;
+align-items: center;
+justify-content: space-between;
+
 }
 
-h1 {
-  margin: 32px 0;
-  color: #fff;
-  font-size: 24px;
+.main-header {
+  font-size: 30px;
+  font-weight:600;
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color:rgb(226, 226, 117);
+padding: 10px 10px 20px 40px;
+outline: inset;
+}
+
+.topnav {
+display: flex;
+flex-direction: row;
+margin-right: 50px;
+}
+
+.topnav a {
+padding: 6px 8px 6px 16px;
+text-decoration: underline;
+font-size: 25px;
+color: rgb(226, 226, 117);
+display: flex;
+flex-direction: column-reverse;
+
+}
+
+.hero-image {
+  height: 100px;
+  max-width: 100%;
+  position: relative;
+  background-image:url("../images/02-hero-bg.jpg");
+  background-size: cover;
+}
+
+
+#subtitle {
+background-color: rgba(0,0,0,0.8);
+color: aliceblue;
+font-size: 50px;
+position: absolute;
+bottom: 0px;
+right: 60px;
+
+  
+  
+}
+
+
+
+/* .sections {
+margin-right: auto;
+display: flex;
+flex-direction: row;
+margin-left: 220px;
+margin-top: 60px; 
+display: flex;
+flex-direction: row;
+width:100%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.sections h2 {
+width: 20%;
+}
+
+.sections p, .sections section {
+width: 70%;
+} */
+
+h2 {
+font-family: monospace;
+margin-right: 30px;
+color:black;
+font-size: 300%;
+display: flex;
+text-align: right;
+justify-content: end;
+border-right: 3px solid #445877;
+width: 20%;
+
 }
 
 h3 {
-  margin: auto;
-  color: rgb(66, 171, 231);
-  font-size: 20px;
+margin-right: 30px;
+font-size: x-large;
+display: flex;
+text-align: right;
+justify-content: flex-start;
 }
 
-.complete {
-  text-decoration: line-through;
-  opacity: 0.4;
+.grid-container {
+/* list-style: none;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+padding: 10px;
+margin-left: 19.3%; */
 }
 
-.bucket-form {
-  margin-bottom: 32px;
+#image-1 {
+width: 100%;
+background-image: url(/images/Screenshot\ 2023-08-23\ at\ 5.49.46\ PM.png);
 }
 
-.bucket-input {
-  padding: 14px 32px 14px 16px;
-  border-radius: 4px;
-  border: 2px solid #5d0cff;
-  outline: none;
-  width: 320px;
-  background: transparent;
-  color: #fff;
+#image-2 {
+background-image: url(/images/Screenshot\ 2023-08-16\ 122313.png);
 }
 
-.bucket-input::placeholder {
-  color: #e2e2e2;
+
+#image-3 {
+background-image: url(/images/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg);
 }
 
-.bucket-button {
-  padding: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  background: #5d0cff;
-  color: #fff;
-  text-transform: capitalize;
+#image-4 {
+background-image: url(/images/weather\ ss.png);
 }
 
-.bucket-input.edit {
-  border: 2px solid #149fff;
+#image-5 {
+background-image: url(/images/cristofferb7.github.io_workday-scheduler_.png);
 }
 
-.bucket-button.edit {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
-  padding: 16px 22px;
+/* .grid-item { */
+/* display: grid; */
+/* background-color: lightblue;
+padding: 20px;
+color:black;
+text-align: center;
+margin: 10px;
+filter: brightness(50%);
+width: 50%;
+height: 200px;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+} */
+
+/* .grid-item:nth-of-type(1) {
+grid-column: 1 / span 2;
+} */
+
+.text-on-picture {
+/* position: absolute; */
+/* background-color: lightblue;
+width: 100px;
+height: 75px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center; */
+/* padding: 30px; */
+/* display: flex; */
+/* margin-top: 250px; */
 }
 
-.bucket-container {
+/* .grid-item:hover {
+filter: brightness(100%);
+
+} */
+
+/* article {
+display: flex;
+flex-direction: row;
+justify-content: center;
+} */
+
+.footerNav {
+margin: 30px ;
+
+}
+
+.footerNav ul{
+display: flex;
+justify-content: space-evenly;
+margin-left: 150%;
+
+
+}
+
+.footerNav ul li a{
+color:black;
+margin: 20px; 
+text-decoration:underline;
+font-size: 1.3em;
+transition: 0.5s;
+
+}
+
+p{
+font-size: larger;
+font-weight: bold;
+
+}
+
+
+
+/* CSS FOR PROJECTS */
+
+#projects-section {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  position: relative;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.bucket-row {
+#projects-section article a {
+  /* width: 80%; */
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 4px auto;
-  color: #fff;
-  padding: 16px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#projects-section article a div {
+  width: 500px;
+  height: 200px;
+}
+
+.grid-item {
+  filter: brightness(50%);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item h3 {
+  background: rgba(30, 30, 30, 0.5);
+  height: 50px;
+  padding: 10px;
   border-radius: 5px;
-  width: 90%;
 }
 
-.low {
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
-}
-
-.medium {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
-  );
-}
-
-.high {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
-}
-
-.icons {
-  display: flex;
-  align-items: center;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.delete-icon {
-  margin-right: 5px;
-  color: #fff;
-}
-
-.edit-icon {
-  color: #fff;
-}
-
-/* Dropdown menu */
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: #ec5700;
-  border-radius: 4px;
-  color: white;
-  padding: 16px;
-  margin: 10px;
-  /* font-size: 16px; */
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 215px;
-  border-radius: 4px;
-  padding: 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content p {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content p:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #5d0cff;
+.grid-item:hover {
+  filter: brightness(100%);
 }

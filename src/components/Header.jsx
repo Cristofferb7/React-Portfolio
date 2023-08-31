@@ -20,10 +20,17 @@ function Header(props) {
           }
           >Projects</a>
           <a href="#"
+           onClick={() => {
+            props.setCurrentPage("Contact")
+          }
+        }
           // onClick here
           >Contact Me</a>
           <a href="#"
-          // onClick here
+          onClick={() => {
+            props.setCurrentPage("Resume")
+          }
+        }
           >Resume</a>
         </section>
       </header>

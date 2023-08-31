@@ -96,7 +96,7 @@ width: 70%;
 } */
 
 h2 {
-font-family: monospace;
+/* font-family: monospace;
 margin-right: 30px;
 color:black;
 font-size: 300%;
@@ -104,7 +104,7 @@ display: flex;
 text-align: right;
 justify-content: end;
 border-right: 3px solid #445877;
-width: 20%;
+width: 20%; */
 
 }
 
@@ -116,33 +116,39 @@ text-align: right;
 justify-content: flex-start;
 }
 
-.grid-container {
+/* .grid-container { */
 /* list-style: none;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 padding: 10px;
 margin-left: 19.3%; */
-}
+/* } */
 
 #image-1 {
 width: 100%;
 background-image: url(/images/Screenshot\ 2023-08-23\ at\ 5.49.46\ PM.png);
+background-size: cover;
 }
 
 #image-2 {
 background-image: url(/images/Screenshot\ 2023-08-16\ 122313.png);
+background-size: cover;
+
 }
 
 
 #image-3 {
+background-size: cover;
 background-image: url(/images/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg);
 }
 
 #image-4 {
+background-size: cover;
 background-image: url(/images/weather\ ss.png);
 }
 
 #image-5 {
+background-size: cover;
 background-image: url(/images/cristofferb7.github.io_workday-scheduler_.png);
 }
 
@@ -167,7 +173,7 @@ align-items: flex-end;
 grid-column: 1 / span 2;
 } */
 
-.text-on-picture {
+/* .text-on-picture { */
 /* position: absolute; */
 /* background-color: lightblue;
 width: 100px;
@@ -179,7 +185,7 @@ align-items: center; */
 /* padding: 30px; */
 /* display: flex; */
 /* margin-top: 250px; */
-}
+/* } */
 
 /* .grid-item:hover {
 filter: brightness(100%);
@@ -260,4 +266,40 @@ font-weight: bold;
 
 .grid-item:hover {
   filter: brightness(100%);
+}
+
+
+
+#currentPage {
+  min-height: 70vh;;
+}
+
+body {
+background-color: rgba(30, 30, 30, 0.5);
+}
+
+footer{
+  color: aliceblue !important;
+  
+}
+
+#contactMe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+}
+
+#contactMe div  {
+  width: 500px;
+
+}
+
+#bigMessage{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

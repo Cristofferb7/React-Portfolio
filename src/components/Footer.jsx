@@ -11,7 +11,7 @@ function Footer(props) {
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-light" href="#"><i class="fa-brands fa-github"></i></a></li>
+      <li class="ms-3"><a class="text-light" href="https://github.com/Cristofferb7"><i class="fa-brands fa-github"></i></a></li>
       <li class="ms-3"><a class="text-light" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
       <li class="ms-3"><a class="text-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
     </ul>

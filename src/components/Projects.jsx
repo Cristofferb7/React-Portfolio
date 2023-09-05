@@ -39,7 +39,7 @@ function Projects(props) {
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-4">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <a href="https://github.com/crandonbruz/scoreboard-analytics" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
+            <a href="https://github.com/Cristofferb7/weather-app" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
             <h2 id="Weather">Weather App</h2>
                  </a>
               <ul class="d-flex list-unstyled mt-auto">
@@ -65,7 +65,7 @@ function Projects(props) {
       <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-5">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <a href="https://github.com/Cristofferb7/weather-app" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
+            <a href="https://github.com/Cristofferb7/workday-schedule" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
             <h2 id="Workday">Workday Scheduler</h2>
                  </a>
               <ul class="d-flex list-unstyled mt-auto">

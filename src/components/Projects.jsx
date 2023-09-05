@@ -3,7 +3,7 @@ import React from "react";
 function Projects(props) {
   return (
     <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="pb-2 border-bottom text-light">Custom cards</h2>
+      <h2 class="pb-2 border-bottom text-light">Projects</h2>
 
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div class="col">

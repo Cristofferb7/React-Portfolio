@@ -152,6 +152,17 @@ background-size: cover;
 background-image: url(/images/cristofferb7.github.io_workday-scheduler_.png);
 }
 
+#image-6 {
+background-size: cover;
+background-image: url(../public/images/password-generator.png);
+}
+
+#image-7 {
+background-size: cover;
+background-image: url(/images/Screen\ Shot\ 2021-08-23\ at\ 5.49.46\ PM.png);
+}
+
+
 /* .grid-item { */
 /* display: grid; */
 /* background-color: lightblue;
@@ -468,7 +479,7 @@ align-items: center;
   background-color: rgba(30, 30, 30, 0.5);
   height: 100px;
 }
-#Score:hover{
+#password:hover{
   color: white;
   background-color: rgba(30, 30, 30, 0.5);
   border: 1px solid black;
@@ -489,7 +500,7 @@ align-items: center;
   
 }
 
-#Score{
+#password{
   color: black;
   font-size: 20px;
   transition: 0.5s;

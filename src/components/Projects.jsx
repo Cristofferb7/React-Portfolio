@@ -90,9 +90,10 @@ function Projects(props) {
         
         {/* #5 */}
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-5">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-6">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <a href="https://github.com/Cristofferb7/workday-schedule" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
+            <a href="https://github.com/Cristofferb7/password-generator" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
+            <h2 id="password">Password Generator</h2>
                  </a>
               <ul class="d-flex list-unstyled mt-auto">
 
@@ -115,9 +116,10 @@ function Projects(props) {
 
         {/* #6 */}
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-3">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-7">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
             <a href="https://github.com/crandonbruz/scoreboard-analytics" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
+            <h2 id="soon">Soon</h2>
                  </a>
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="me-auto">

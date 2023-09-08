@@ -1,144 +1,58 @@
 import React from "react";
+import Project from "./Project";
 
 function Projects(props) {
+  const project1 = {
+    title: "Scoreboard Analytics",
+    id1: "image-2",
+    id2: "Score",
+    github: "https://github.com/crandonbruz/scoreboard-analytics",
+  };
+
+  const project2 = {
+    title: "Merry Wishlist",
+    id1: "image-3",
+    id2: "Merry",
+    github: "https://github.com/WyattBensman/the-merry-wishlist",
+  };
+  const project3 = {
+    title: "Weather App ",
+    id1: "image-4",
+    id2: "Weather",
+    github: "https://github.com/Cristofferb7/weather-app",
+  };
+  const project4 = {
+    title: "Workday Scheduler",
+    id1: "image-5",
+    id2: "Workday",
+    github: "https://github.com/Cristofferb7/workday-schedule",
+  };
+  const project5 = {
+    title: "Weather App ",
+    id1: "image-6",
+    id2: "password",
+    github: "https://github.com/Cristofferb7/password-generator",
+  };
+  const project6 = {
+    title: "Soon",
+    id1: "image-7",
+    id2: "Soon",
+    github: "#",
+  };
+
   return (
     <div class="container px-4 py-5" id="custom-cards">
       <h2 class="pb-2 border-bottom text-light">Projects</h2>
 
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-2">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <a href="https://github.com/crandonbruz/scoreboard-analytics" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold "  >
-                 
-                 <h2 id="Score" >Scoreboard Analytics</h2>
-                 </a>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                </li> 
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-3">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <a href="https://github.com/WyattBensman/the-merry-wishlist" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
-                 
-                 <h2 id="Merry">Merry Wishlist</h2>
-                 </a>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                </li> 
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-4">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <a href="https://github.com/Cristofferb7/weather-app" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
-            <h2 id="Weather">Weather App</h2>
-                 </a>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-               
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      {/* #4 */}
-      <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-5">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <a href="https://github.com/Cristofferb7/workday-schedule" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
-            <h2 id="Workday">Workday Scheduler</h2>
-                 </a>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-              
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <Project data={project1} />
+        <Project data={project2} />
+        <Project data={project3} />
+        <Project data={project4} />
+        <Project data={project5} />
+        <Project data={project6} />
 
         
-        {/* #5 */}
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-6">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <a href="https://github.com/Cristofferb7/password-generator" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
-            <h2 id="password">Password Generator</h2>
-                 </a>
-              <ul class="d-flex list-unstyled mt-auto">
-
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                 
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* #6 */}
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  id="image-7">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <a href="https://github.com/crandonbruz/scoreboard-analytics" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold " >
-            <h2 id="soon">Soon</h2>
-                 </a>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

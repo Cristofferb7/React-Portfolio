@@ -522,3 +522,18 @@ align-items: center;
 }
 
 
+
+
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+  }
+
+  .topnav {
+    flex-direction: column;
+  }
+
+
+  
+}
